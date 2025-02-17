@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tahu Pak Taryo</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader">
+        <div class="spinner"></div>
+    </div>
+    <!-- Menu -->
+    <nav class="navbar">  
+        <a href="index.html">
+            <div class="logo">Tahu Pak Taryo</div>
+        </a>      
+        <ul class="nav-links">
+            <li><a href="#about">Tentang Kami</a></li>
+            <li><a href="#services">Layanan</a></li>
+            <li><a href="#contact">Kontak</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>   
+    <!-- Header -->
+    <header class="hero">
+        <div class="overlay">
+            <h1>Tahu Pak Taryo</h1>
+            <p>Tahu dengan kualitas terbaik</p>
+        </div>
+    </header>
+    <!-- Animasi Slider -->
+    <section class="slider">
+        <div class="slides">
+            <div class="slide">
+                <img src="images/tahu1.jpg" alt="Tahu Goreng">
+            </div>
+            <div class="slide">
+                <img src="images/tahu2.jpg" alt="Tahu Putih">
+            </div>
+            <div class="slide">
+                <img src="images/tahu3.jpg" alt="Proses pembuatan tahu">
+            </div>
+        </div>
+        <button class="prev" onclick="prevSlide()">&#10094;</button>
+        <button class="next" onclick="nextSlide()">&#10095;</button>
+        <div class="dots">
+            <span class="dot active" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </section>
+    <!-- About -->
+    <section id="about" class="section">
+        <h2>Tentang Kami</h2>
+        <div class="about-container">
+            <img src="images/tahu-production.jpg" alt="Proses Pembuatan Tahu" class="about-image">
+            <div class="about-text">
+                <p>
+                    <strong>Tahu Pak Taryo</strong> adalah produsen tahu berkualitas yang telah dipercaya oleh masyarakat 
+                    sejak bertahun-tahun. Kami menggunakan bahan-bahan alami pilihan, tanpa bahan pengawet, sehingga menghasilkan 
+                    tahu yang lezat, sehat, dan bergizi.
+                </p>
+                <p>
+                    Kami berkomitmen untuk menjaga kualitas dengan menerapkan proses produksi higienis dan standar tinggi. 
+                    Tahu yang kami hasilkan tersedia dalam dua varian utama:
+                </p>
+                <ul>
+                    <li><strong>Tahu Goreng</strong> – Cocok untuk langsung disantap dengan tekstur renyah di luar dan lembut di dalam.</li>
+                    <li><strong>Tahu Putih</strong> – Pilihan terbaik untuk berbagai olahan masakan sehat.</li>
+                </ul>
+                <p>
+                    Sebagai produsen tahu terbesar di Prabumulih, kami juga melayani pemesanan dalam jumlah besar 
+                    untuk restoran, warung makan, dan usaha kuliner lainnya.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Services -->
+    <section id="services" class="section">
+        <h2>Layanan Kami</h2>
+        <div class="service-container">
+            <div class="service">
+                <img src="images/tahuberkualitas.jpg" alt="Tahu Berkualitas">
+                <h3>Tahu Berkualitas</h3>
+                <p>Diproduksi dengan bahan pilihan untuk cita rasa terbaik.</p>
+            </div>
+            <div class="service">
+                <img src="images/distribusiluas.jpg" alt="Distribusi Luas">
+                <h3>Distribusi Cepat</h3>
+                <p>Pengiriman luas ke berbagai daerah dengan sistem pemesanan yang mudah.</p>
+            </div>
+            <div class="service">
+                <img src="images/reseptradisional.jpg" alt="Resep Tradisional>"
+                <h3>Resep Tradisional</h3>
+                <p>Diolah dengan teknik turun-temurun untuk rasa autentik.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <h2>Kontak Kami</h2>
+        <p>Email: <a href="mailto:tahupaktaryo@gmail.com">tahupaktaryo@gmail.com</a></p>
+        <p>Telepon: <a href="tel:+62895618460053">0895 6184 60053</a></p>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Nama" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <textarea id="message" placeholder="Pesan" required></textarea>
+            <button type="submit">Kirim</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Tahu Pak Taryo. All rights reserved.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
