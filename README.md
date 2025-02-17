@@ -1,13 +1,9 @@
-Tugas Web Company Profile__
+Tugas Web Company Profile  
 
 
-oleh__
-
-NIM         : 10924002__
-
-Nama        : Muhamad Apriadi__
-
-Prodi       : Manajemen Informatika__
-
-Mata Kuliah : Pemrograman WEB__
+oleh  
+NIM         : 10924002  
+Nama        : Muhamad Apriadi  
+Prodi       : Manajemen Informatika  
+Mata Kuliah : Pemrograman WEB  
 
